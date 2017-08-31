@@ -33,9 +33,6 @@ def savePics(num):
                 f.write(imgsource)
                 print(imgurl,'保存成功')
 
-        if i >= 18:
-            break
-
     print('共抓取%d张自拍'% i)
 
 savePics(307)
